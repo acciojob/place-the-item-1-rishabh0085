@@ -1,16 +1,31 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .holder {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .item {
+            width: calc(25% - 10px); /* Adjust the width of each item */
+            margin-bottom: 20px; /* Add space between items */
+            background-color: #f2f2f2;
+            border: 1px solid #ddd;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+    </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="holder">
+        <div class="item">Item 1</div>
+        <!-- Add more items here if needed -->
+    </div>
 </body>
 
 </html>
